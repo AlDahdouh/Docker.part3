@@ -1,0 +1,10 @@
+Before
+-----------------
+frontend                                latest              541c916fdfdf        5 days ago          526MB
+backend                                 latest              60dcdf68d7ca        5 days ago          332MB
+
+
+After 
+------------------
+frontend                                latest              9587aede1b24        6 minutes ago       433MB
+backend                                 latest              0e2ff46b0619        38 minutes ago      238MB

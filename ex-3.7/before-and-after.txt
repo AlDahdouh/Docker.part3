@@ -1,0 +1,12 @@
+
+Before 
+--------------------------
+REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
+aldahdouh/edustats                      latest              e771f248f7db        24 hours ago        346MB
+
+
+
+After 
+--------------------------
+REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
+edustats/alpine                         latest              b24b3ef823f9        30 seconds ago      243MB

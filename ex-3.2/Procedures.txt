@@ -1,0 +1,15 @@
+For this task, I have just followed Heroku instruction to connect to GitHub repo 
+and to automatically deploy the application to Heroku.
+
+details:
+
+1. Create GitHub repo (private) : https://github.com/AlDahdouh/EduStatsPro
+2. Add config file to GitHub rep in order to deploy on Heroku: Procfile (included in the folder).
+3. Create Heroku app : edustats-aldahdouh
+4. Add ENV variables to edustats-aldahdouh app: 
+	APOLLO_KEY = xxx
+	MONGODB_URL = xxx
+	SECRET_KEY = xxx
+	PORT	= xxx
+5. Connect Heroku app to GitHub repo, using the deploy tab in edustats-aldahdouh application
+6. Enable (Automatic deploys from master branch) 

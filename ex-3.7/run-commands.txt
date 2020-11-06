@@ -1,0 +1,8 @@
+
+Using the following command to run the application:
+docker run -it --env-file env.list -p 3001:3001 edustats/alpine
+
+
+Note:
+This is my own project and it is private. So, it needs an authentication, 
+secret key and MongoDB connection to run the Dockerfile and the run command.

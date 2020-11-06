@@ -1,0 +1,33 @@
+root@devops-docker:/media/sf_Downloads/DevOps/part3/ex-3.1# docker history frontend
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+9e12e6b6d147        11 hours ago        /bin/sh -c #(nop)  CMD ["start"]                0B                  
+2377612ea3c0        11 hours ago        /bin/sh -c #(nop)  ENTRYPOINT ["npm"]           0B                  
+1081c9882a91        11 hours ago        /bin/sh -c #(nop)  EXPOSE 5000                  0B                  
+33c490f95f7a        11 hours ago        /bin/sh -c npm install                          212MB               
+6f8e68dffdc8        11 hours ago        /bin/sh -c #(nop)  ENV API_URL=http://localh…   0B                  
+f07e0a564102        5 days ago          /bin/sh -c #(nop) WORKDIR /frontend-example-…   0B                  
+b11e10b35bd6        5 days ago          /bin/sh -c git clone https://github.com/dock…   921kB               
+187563b785a3        5 days ago          /bin/sh -c apt-get install nodejs git-core -y   158MB               
+f13748c080b6        5 days ago          /bin/sh -c curl -sL https://deb.nodesource.c…   40.6MB              
+ca194aaa9b2e        5 days ago          /bin/sh -c apt-get update && apt-get install…   42.1MB              
+d70eaf7277ea        10 days ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           10 days ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B                  
+<missing>           10 days ago         /bin/sh -c [ -z "$(apt-get indextargets)" ]     0B                  
+<missing>           10 days ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   811B                
+<missing>           10 days ago         /bin/sh -c #(nop) ADD file:435d9776fdd3a1834…   72.9MB              
+root@devops-docker:/media/sf_Downloads/DevOps/part3/ex-3.1# docker history frontend
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+9587aede1b24        2 minutes ago       /bin/sh -c #(nop)  CMD ["start"]                0B                  
+f69993ba0388        2 minutes ago       /bin/sh -c #(nop)  ENTRYPOINT ["npm"]           0B                  
+56578dff3b67        2 minutes ago       /bin/sh -c npm install                          212MB               
+a413850cdc43        4 minutes ago       /bin/sh -c #(nop) WORKDIR /frontend-example-…   0B                  
+0a9afb74721e        4 minutes ago       /bin/sh -c apt-get update && apt-get install…   148MB               
+f510d1d63aeb        6 minutes ago       /bin/sh -c #(nop)  EXPOSE 5000                  0B                  
+4ebad8aac6d3        6 minutes ago       /bin/sh -c #(nop)  ENV API_URL=http://localh…   0B                  
+d70eaf7277ea        10 days ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           10 days ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B                  
+<missing>           10 days ago         /bin/sh -c [ -z "$(apt-get indextargets)" ]     0B                  
+<missing>           10 days ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   811B                
+<missing>           10 days ago         /bin/sh -c #(nop) ADD file:435d9776fdd3a1834…   72.9MB              
+root@devops-docker:/media/sf_Downloads/DevOps/part3/ex-3.1# 
+

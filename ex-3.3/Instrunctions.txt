@@ -1,0 +1,20 @@
+
+We will use Dockerfile to create an image according to the following command:
+docker build -t docker-builder .
+
+
+
+After creating "docker-builder" image, you can use it like the following:
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=xxxxxx -e DOCKER_PASSWORD=xxxxxxxx -e DOCKER_IMAGE=mynew-image -e GITHUB_LINK=https://github.com/docker-hy/docker-hy.github.io.git -it docker-builder
+
+
+As you can see, in order for "docker-builder" container to run correctly, you must provide 
+the following environment variables:
+
+GITHUB_LINK=https://github.com/docker-hy/docker-hy.github.io.git
+DOCKER_USER=xxxxxx
+DOCKER_PASSWORD=xxxxxx
+DOCKER_IMAGE=mynew-image-name
+
+NOTE:
+This docker image works only with public repo on GitHub. 
